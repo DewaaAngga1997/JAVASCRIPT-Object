@@ -5,7 +5,7 @@
 
 //buat template nya dulu
 function Mahasiswa(nama, energi) {
-  let mahasiswa = {};
+  const mahasiswa = {};
   mahasiswa.nama = nama;
   mahasiswa.energi = energi;
 
@@ -18,6 +18,6 @@ function Mahasiswa(nama, energi) {
 }
 
 //sekarang baru kita buat object nya
-let dewaangga = Mahasiswa('dewaangga', 99);
+const dewaangga = Mahasiswa('dewaangga', 99);
 //kalo mau bikin mahasiswa berikutnya kita tinggal buat lagi object nya
-let rantika = Mahasiswa('Rantika', 50);
+const rantika = Mahasiswa('Rantika', 50);
