@@ -12,5 +12,5 @@ function Mahasiswa(nama, energi) {
     console.log(`Halo ${this.nama}, selamat makan`);
   };
 }
-
+//masukan nilainya
 let dewaangga = new Mahasiswa('dewaangga', 50);
